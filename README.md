@@ -1,8 +1,12 @@
 # Introduction and Analysis of Problem
 
-In this project, image classification is performed using three different types of deep convolutional neural networks in order to classify groceries of fruits, vegetables, and packaged liquid. The dataset was created based on the [Grocery Store Dataset](https://github.com/marcusklasson/GroceryStoreDataset) found on github, with images from 81 different classes of fruits, vegetables, and packaged products.
+In this project, image classification is performed using three different types of deep convolutional neural networks in order to classify groceries of fruits, vegetables, and packaged liquid. The dataset was created based on the [Grocery Store Dataset](https://github.com/marcusklasson/GroceryStoreDataset) found on github, with images from 81 different classes of fruits, vegetables, and packaged products. See code for reference
 
-For the purpose of this project, the dataset was re-classified into 3 classes of fruits, vegetables, and packages. It was reclassified into three different classes in order to really see if a neural network can be trained to differentiate on a higher level between fruits, vegetables, and packaged poducts each having numerous sub-types. For instance, there are different types of fruits such as apples, bananas, avacados, and kiwis, each with different shape and texture. Similarly, there are different vegetables such as tomatoes, potatoes, etc. The network can easily differentiate between bananas and tomatoes, but can it really differentiate between a tomato and an apple between all the other sub-types? What about confusing the texture of a kiwi to that of a potato, or an avocado for a vegetable? This problem is applicable to create any future intelligent grocery store that can easily recognize differences in groceries. This may provide an insight into creation of stores where cash registers and cashiers may no longer be necessary -saving time, money, and resources for customers and businesses.
+For the purpose of this project, the dataset was re-classified into 3 classes of fruits, vegetables, and packages. It was reclassified into three different classes in order to learn how a neural network can be trained to differentiate on a higher level between fruits, vegetables, and packaged poducts each having numerous sub-types.
+
+# CNN overview
+
+Created a small convolutional network as baseline for analysis and then used VGG16 and ResNet50 for transfer learning.
 
 # Dataset
 
