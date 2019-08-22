@@ -67,7 +67,7 @@ When comparing the following accuracy of all the models:
 The ResNet50 proved to be the best model in terms of both accuracy and loss. The accuracy validation results ranged around 98-99% while the confusion matrix described only one image (fruits) classified incorrectly. In conclusion, the problem of classifying different groceries at a high level can be solved using multiple convolutional neural networks such as the ResNet50. With a good, sufficient(large) dataset, this network can definitely be used in real life situations.
 
 # Citation
-```python
+```
 @inproceedings{klasson2019hierarchical,
   title={A Hierarchical Grocery Store Image Dataset with Visual and Semantic Labels},
   author={Klasson, Marcus and Zhang, Cheng and Kjellstr{\"o}m, Hedvig},
