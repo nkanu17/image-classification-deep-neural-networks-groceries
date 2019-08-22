@@ -3,18 +3,16 @@
 In this project, image classification is performed using three different types of deep convolutional neural networks in order to classify groceries of fruits, vegetables, and packaged liquid. The dataset was created based on the [Grocery Store Dataset](https://github.com/marcusklasson/GroceryStoreDataset) found on github, with images from 81 different classes of fruits, vegetables, and packaged products. See below for reference
 
 For the purpose of this project, the dataset was re-classified into 3 classes of fruits, vegetables, and packages. It was reclassified into three different classes in order to learn how a neural network can be trained to differentiate on a higher level between fruits, vegetables, and packaged poducts each having numerous sub-types.
-## 
-This problem is applicable to create any future intelligent grocery store that can easily recognize differences in groceries. This may provide an insight into creation of stores where cash registers and cashiers may no longer be necessary - saving time, money, and resources for customers and businesses.
 
-# CNN overview
+# Overview
 
-Created a small convolutional network as baseline for analysis and then used VGG16 and ResNet50 for transfer learning.
+Created a small convolutional network as baseline and then used VGG16 and ResNet50 through transfer learning to improve the results.
 
 # Dataset
 
 **Source**
 
-The images of this dataset is found on another dataset, [Grocery Store Dataset](https://github.com/marcusklasson/GroceryStoreDataset), of natural grocery items found in Github. It was transformed to fit the goals of this project.
+The images of this dataset is found on another dataset, [Grocery Store Dataset](https://github.com/marcusklasson/GroceryStoreDataset), of natural grocery items found in Github. It was transformed to fit the goals of this project. Please view citation/reference below for more information.
 
 Classes: 
 
@@ -47,7 +45,7 @@ Types of Packages in data set:
 
 # Future optimizations
 
-Perform GridSearch or use Thalos for more thorough hyperparameter tuning. This is still to come.
+Hyperparameter tuning with GridSearch or Thalos. May do it sometime.
 
 # Final Results
 
