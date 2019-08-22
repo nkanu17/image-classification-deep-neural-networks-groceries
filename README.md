@@ -1,6 +1,6 @@
 # Introduction and Analysis of Problem
 
-In this project, image classification is performed using three different types of deep convolutional neural networks in order to classify groceries of fruits, vegetables, and packaged liquid. The dataset was created based on the [Grocery Store Dataset](https://github.com/marcusklasson/GroceryStoreDataset) found on github, with images from 81 different classes of fruits, vegetables, and packaged products. See code for reference
+In this project, image classification is performed using three different types of deep convolutional neural networks in order to classify groceries of fruits, vegetables, and packaged liquid. The dataset was created based on the [Grocery Store Dataset](https://github.com/marcusklasson/GroceryStoreDataset) found on github, with images from 81 different classes of fruits, vegetables, and packaged products. See below for reference
 
 For the purpose of this project, the dataset was re-classified into 3 classes of fruits, vegetables, and packages. It was reclassified into three different classes in order to learn how a neural network can be trained to differentiate on a higher level between fruits, vegetables, and packaged poducts each having numerous sub-types.
 ## 
