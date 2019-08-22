@@ -43,6 +43,12 @@ Types of Vegetables in data set:
 Types of Packages in data set:
 - Juice, Milk, Outghurt, Oat-Milk, Sour-Cream, Sour-Milk, Soyghurt, Soy-Milk, Yogurt
 
+# Requirements
+- JupyterNotebook or Google Colab
+- python 3.5+
+- keras
+
+
 # Future optimizations
 
 Hyperparameter tuning with GridSearch or Thalos. May do it sometime.
